@@ -1,0 +1,20 @@
+Big Os:
+    - O(1): constant;
+    - O(log(n)): searching problems (Binary Search), but NOT for Hash Tables;
+    - O(n): loops;
+    - O(nlog(n)): sorting algorithms using comparison;
+    - O(n^2): nested loops;
+    - O(2^n): recursive algorithms;
+    - O(n!): when you are adding a loop for each element; 
+
+    What can take time:
+    - Arithmetic operations;
+    - Comparisons;
+    - Loops;
+    - Outside function call; 
+
+    Rules of Big O:
+    1. Worst Case;
+    2. Drop non-dominant terms; 
+    3. Remove constants; 
+    4. Different terms for different inputs;
