@@ -13,6 +13,11 @@ Big Os:
     - Loops;
     - Outside function call; 
 
+    What causes Space Complexity:
+    - Adding variables;
+    - Data Structures;  
+    - Function Calls;
+    - Allocations;
     Rules of Big O:
     1. Worst Case;
     2. Drop non-dominant terms; 
