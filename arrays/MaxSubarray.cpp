@@ -3,17 +3,19 @@
 //Memory Usage: 9.3 MB, less than 74.51% of C++ online submissions  
 class Solution {
 public:
+    int max(int a, int b){
+        return (a>b)?a:b;    
+    }
+    
     int maxSubArray(vector<int>& nums) {
-        int max=INT_MIN;
+        int maxSum=INT_MIN;
         for(int i=0;i<nums.size();++i){
             int sum=0;
             for(int j=i;j<nums.size();++j){
                 sum+=nums[j];
-                if(sum>max){
-                    max=sum;
-                }
+           maxSum=max(sum,maxSum);
             }
         }
-        return max;
+        return maxSum;
     }
 };
