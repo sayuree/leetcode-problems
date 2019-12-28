@@ -1,4 +1,5 @@
 //O(n) solution
+//Converting ints to String and finding its length
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
