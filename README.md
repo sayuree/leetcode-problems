@@ -5,3 +5,7 @@ The commits will be made daily.
 The categories are divided into folders:
     - Arrays;
     - Linked Lists;
+
+    |Vector | Constructors | Accessors | Modifiers|
+    |-------|--------------|-----------|----------|
+    
