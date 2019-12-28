@@ -6,6 +6,7 @@ The categories are divided into folders:
     - Arrays;
     - Linked Lists;
 
-    |Vector | Constructors | Accessors | Modifiers|
-    |-------|--------------|-----------|----------|
-    
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
