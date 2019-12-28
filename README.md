@@ -8,8 +8,10 @@ The categories are divided into folders:
 
 ## Vectors in C++ CheatSheet
 
-
-| __Animals__ | __Sports__ | __Fruits__ |
-|-------------|------------|------------|
-| Cat         | Soccer     | Apple      |
-| Dog         | Basketball | Orange     |
+### Constructors 
+| Operation | Description | Time Complexity | 
+| ---| --- | ---|
+| vector<T> v; |              Make an empty vector.                |              |  O(1) |
+| vector<T> v(n);   |        Make a vector with N elements.                          |  O(n) |
+| vector<T> v(n, value); |   Make a vector with N elements, initialized to value.    |  O(n) |
+| vector<T> v(begin, end); |  Make a vector and copy the elements from begin to end.  |  O(n) |
