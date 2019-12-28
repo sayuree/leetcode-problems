@@ -9,6 +9,8 @@ The categories are divided into folders:
 ## Vectors in C++ CheatSheet
 
 /***
-| Constructors | vector<T> v;             | Make an empty vector.                                   | O(1) |
-|              | ----| --- | --- |
+| __Animals__ | __Sports__ | __Fruits__ |
+|-------------|------------|------------|
+| Cat         | Soccer     | Apple      |
+| Dog         | Basketball | Orange     |
 ***/
