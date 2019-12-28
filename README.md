@@ -8,9 +8,8 @@ The categories are divided into folders:
 
 ## Vectors in C++ CheatSheet
 
-/***
+
 | __Animals__ | __Sports__ | __Fruits__ |
 |-------------|------------|------------|
 | Cat         | Soccer     | Apple      |
 | Dog         | Basketball | Orange     |
-***/
