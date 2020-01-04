@@ -15,3 +15,20 @@ public:
         return -1;
     }
 };
+//O(NlogN) time and O(1) space
+//no use of maps, but of sort() built in function, which is O(nlogn)
+//Use the property of N times repeated element in 2N array: 
+//it means that first element either should be equal to the element at
+//the center or the answer would be the one next to the central element
+
+class Solution {
+public:
+    int repeatedNTimes(vector<int>& A) {
+    sort(A.begin(),A.end());
+        if(A[0]==A[A.size()/2-1]){
+            return A[0];
+        }else{
+            return A[A.size()/2];
+        }
+    }       
+};
