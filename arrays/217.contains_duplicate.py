@@ -10,3 +10,10 @@ class Solution:
         for item in nums:
             my_set.add(item)
         return len(my_set) != len(nums)
+
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        if not nums:
+            return False
+        return len(nums) != len(set(nums))
